@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+.h1 , h2 , h3 {
+    font-family: "Oswald", sans-serif ;
+}
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    filter: brightness(80%);
+}
+.btn1 {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+}
+.btn1:hover {
+    filter: brightness(80%);
+}
+/* .img-translate {
+    animation: img-translate 1s ease-in-out infinite;
+}
+ @keyframes img-translate {
+    0%,
+    100% {
+      transform: translatex(-10px);
+    }
+    50% {
+      transform: translatex(10px);
+    }
+  } */
